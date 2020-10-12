@@ -1,0 +1,2274 @@
+* {
+	-webkit-font-smoothing: antialiased;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ccc;
+}
+
+
+
+
+
+
+body #page-container .et_pb_section .et_pb_fullwidth_header_0 .et_pb_button_one.et_pb_button {
+	color: #1a331b!important;
+	border-color: #1a331b;
+	border-radius: 10px;
+	letter-spacing: -1px;
+	font-size: 15px;
+	font-family: 'recursive_mono_linear_extrabold',Helvetica,Arial,Lucida,sans-serif!important;
+	text-transform: uppercase!important;
+	background-color: #f2edd7;
+}
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container .header-content a.et_pb_button {
+	margin-top: 20px;
+	display: inline-block;
+}
+.et_pb_fullwidth_header_0 .et_pb_button_one {
+	box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.3);
+}
+.et_pb_more_button {
+	color: inherit;
+	text-shadow: none;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+}
+.et_pb_button, .et_pb_button_inner {
+	position: relative;
+}
+.et_pb_button {
+	font-size: 20px;
+	font-weight: 500;
+	padding: .3em 1em;
+	line-height: 1.7em!important;
+	background-color: transparent;
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	border: 2px solid;
+	border-radius: 3px;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+a {
+	overflow: hidden;
+}
+a {
+	color: #c4d981;
+}
+a, a:hover {
+	text-decoration: none;
+}
+a {
+	color: #2ea3f2;
+}
+a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul, var {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+	color: -webkit-link;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.left .header-content {
+	text-align: left;
+	margin-left: 0;
+}
+.et_pb_fullwidth_header .header-content {
+	padding: 10px;
+	text-align: center;
+}
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.left {
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-flow: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-flow: row;
+}
+.et_pb_text_align_left {
+	text-align: left;
+}
+.et_pb_bg_layout_dark, .et_pb_bg_layout_dark h1, .et_pb_bg_layout_dark h2, .et_pb_bg_layout_dark h3, .et_pb_bg_layout_dark h4, .et_pb_bg_layout_dark h5, .et_pb_bg_layout_dark h6 {
+	color: #fff!important;
+}
+body, input, textarea, select {
+	font-family: 'recursive_sans_linear_light',Helvetica,Arial,Lucida,sans-serif;
+}
+body {
+	color: #1a331b;
+}
+body, .et_pb_column_1_2 .et_quote_content blockquote cite, .et_pb_column_1_2 .et_link_content a.et_link_main_url, .et_pb_column_1_3 .et_quote_content blockquote cite, .et_pb_column_3_8 .et_quote_content blockquote cite, .et_pb_column_1_4 .et_quote_content blockquote cite, .et_pb_blog_grid .et_quote_content blockquote cite, .et_pb_column_1_3 .et_link_content a.et_link_main_url, .et_pb_column_3_8 .et_link_content a.et_link_main_url, .et_pb_column_1_4 .et_link_content a.et_link_main_url, .et_pb_blog_grid .et_link_content a.et_link_main_url, body .et_pb_bg_layout_light .et_pb_post p, body .et_pb_bg_layout_dark .et_pb_post p {
+	font-size: 15px;
+}
+body {
+	font-family: Open Sans,Arial,sans-serif;
+	font-size: 14px;
+	color: #666;
+	background-color: #fff;
+	line-height: 1.7em;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+	line-height: 1;
+}
+body #page-container .et_pb_section .et_pb_fullwidth_header_0 .et_pb_button_one.et_pb_button:before {
+	content: attr(data-icon);
+	font-family: "ETmodules"!important;
+	color: #9c582f;
+	line-height: inherit;
+	font-size: inherit!important;
+	opacity: 0;
+	margin-left: -1.3em;
+	right: auto;
+	display: inline-block;
+}
+.et_pb_button:before {
+	display: none;
+}
+.et_pb_button:after, .et_pb_button:before {
+	font-size: 32px;
+	line-height: 1em;
+	content: "\35";
+	opacity: 0;
+	position: absolute;
+	margin-left: -1em;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	text-transform: none;
+	-webkit-font-feature-settings: "kern" off;
+	font-feature-settings: "kern" off;
+	font-variant: none;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: none;
+}
+body #page-container .et_pb_section .et_pb_fullwidth_header_0 .et_pb_button_one.et_pb_button:after {
+	display: none;
+}
+.et_pb_custom_button_icon.et_pb_button:after, .et_pb_login .et_pb_custom_button_icon.et_pb_button:after {
+	content: attr(data-icon);
+}
+#et-info-email:before, #et-info-phone:before, #et_search_icon:before, .comment-reply-link:after, .et-cart-info span:before, .et-pb-arrow-next:before, .et-pb-arrow-prev:before, .et-social-icon a:before, .et_audio_container .mejs-playpause-button button:before, .et_audio_container .mejs-volume-button button:before, .et_overlay:before, .et_password_protected_form .et_submit_button:after, .et_pb_button:after, .et_pb_contact_reset:after, .et_pb_contact_submit:after, .et_pb_font_icon:before, .et_pb_newsletter_button:after, .et_pb_pricing_table_button:after, .et_pb_promo_button:after, .et_pb_social_icon a.icon:before, .et_pb_testimonial:before, .et_pb_toggle_title:before, .form-submit .et_pb_button:after, .mobile_menu_bar:before, .woocommerce #content input.button.alt:after, .woocommerce #content input.button:after, .woocommerce #respond input#submit.alt:after, .woocommerce #respond input#submit:after, .woocommerce-page #content input.button.alt:after, .woocommerce-page #content input.button:after, .woocommerce-page #respond input#submit.alt:after, .woocommerce-page #respond input#submit:after, .woocommerce-page a.button.alt:after, .woocommerce-page a.button:after, .woocommerce-page button.button.alt:after, .woocommerce-page button.button:after, .woocommerce-page input.button.alt:after, .woocommerce-page input.button:after, .woocommerce a.button.alt:after, .woocommerce button.button.alt:after, .woocommerce button.button:after, .woocommerce button.single_add_to_cart_button.button:after, .woocommerce input.button.alt:after, .woocommerce input.button:after, a.et_pb_more_button:after {
+	font-family: ETmodules!important;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	-webkit-font-feature-settings: normal;
+	font-feature-settings: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-shadow: 0 0;
+}
+.et_pb_button:after, .et_pb_button:before {
+	font-size: 32px;
+	line-height: 1em;
+	content: "\35";
+	opacity: 0;
+	position: absolute;
+	margin-left: -1em;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	text-transform: none;
+	-webkit-font-feature-settings: "kern" off;
+	font-feature-settings: "kern" off;
+	font-variant: none;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: none;
+}
+
+
+
+
+
+
+/* s.css - ln 1474 : Override EPA's style which sets background for link to a dark blue when onFocus 
+   which looks odd when jquery-ui style is also used; Hence affects pop-ups that have links and by default
+   jQuery-UI sets the first link as where the focus sits. */
+a:focus {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+label {
+    font-weight: normal;
+    display: initial;
+}
+
+.displayNone {
+	display: none;
+}
+
+sub, sup { line-height: 0 !important; }
+
+div.accordion td > * {
+	vertical-align:middle;
+}
+
+div.accordion input {
+	margin-bottom:0px;
+}
+
+div.accordion th:nth-child(1),
+div.accordion td:nth-child(1){
+    width:7%;
+}
+div.accordion  td:nth-child(2),
+div.accordion  th:nth-child(2){
+    width:23%;
+}
+div.accordion th:nth-child(3),
+div.accordion td:nth-child(3) {
+    width:40%;
+} 
+
+div.accordion th:nth-child(4),
+div.accordion td:nth-child(4){
+    width:12%;
+} 
+
+div.accordion th:nth-child(5),
+div.accordion td:nth-child(5) {
+    width:18%;
+} 
+
+div.accordion {
+    table-layout:fixed;
+}
+
+.button:hover {
+    cursor:pointer;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+
+div#more-info {
+	border: lightgray 1px solid;
+	height: auto;
+	padding: 1em;
+	float: left;
+	margin-top: 3em;
+	margin-bottom:2em;
+}
+
+#more-info p {
+	margin-bottom: 2em;
+}
+
+#more-info div {
+	float: left;
+	margin-right: 5em;
+	width: 40%;
+}
+
+#more-info li {
+	list-style-type:disc;
+	margin-bottom: 0.2em;
+}
+
+#more-info ul {
+	margin-top: 0.5em;
+}
+
+noscript div {
+	margin: .5em 1em;
+}
+
+	noscript div h1 {
+		color: #c13b00;
+	}
+
+	noscript div h2 {
+		font-size: 1.25em;
+		line-height: 1.75em;
+	}
+
+/* 
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #f0efeb;
+	background: #ffffff;
+	font-family: 'Helvetica','Avenir',sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #333;
+}
+.h3,
+h3 {
+	font-size: 1.5em;
+	margin: 0 0 .25em 0;
+	font-weight: normal;
+	color: #38679b;
+}
+
+*/
+
+form {
+	padding: .5em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 16px; /* 16px to avoid zoom in by iOS Safari browsers */
+}
+
+input {
+	margin-bottom: .2em;
+	padding: .5em;
+        max-width: 80%
+}
+
+#current-emissions-ul input {
+    max-width: 100%;
+}
+
+input[type="submit"] {
+	width: 100%;
+	margin: 1.5em auto 0;
+	padding: .05em;
+	font-size: 1.35em;
+	text-align: center;
+	background: #77b76d;
+	border-radius: 3px;
+	border: none;
+	font-weight: bold;
+	color: #fcfffb;
+}
+input[type="checkbox"] {
+    border:none;
+    margin: .5em .25em .5em 2em;
+}
+
+select {
+	/* margin: .5em 0 1.25em;
+	margin-top:auto; margin-bottom:auto;	border-radius: 0;
+	vertical-align:middle;
+	-webkit-appearance: none;
+	max-width: 100%;
+	height: 32px;
+	padding: 0 .5em;
+	padding-right:15px; */
+	/* overflow: hidden; */
+	/* background: url(../imgs/dropdown-icon.jpg) no-repeat right #ffffff; */
+	/* border: 1px solid #cecece; */
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+    .vehicle-asset {
+        margin-left:10px;
+    }
+
+    .maintenance-asset {
+        margin-left:4px;
+    }
+
+    .vehicle-asset {
+        margin-left:10px;
+    }
+
+	.select-hook {
+		width: 93px;
+		margin: 0 0em;
+	}
+
+	#numVehiclesInput { width: 70px;}
+
+	#home-emissions input, #home-emissions select {
+		width: 100%;
+	}
+
+ul {
+	margin: 0 0 2em 0;
+	padding: 0 0 0 1em;
+}
+
+/*
+
+ul li {
+	list-style-type: circle;
+	color: #38679b;
+	color: #222;
+	margin-bottom: 1em;
+	line-height: 1.5em;
+}
+*/
+th {
+	text-align: left;
+}
+
+ .inner-container {
+ 	position: relative;
+ 	padding: 1em;
+ }
+
+ .dinner-container {
+	position: relative;
+	padding: 1em;
+}
+
+/*  SPECIFIC  */
+
+#intro-explanation {
+	margin: 1em auto;
+	padding: .5em;
+	background: #e1eff8;
+	border: 1px solid #bbbfc0;
+	max-width: 1200px;
+}
+
+	#failValidation {
+		background-color: pink;
+		color: red;
+		border: 1px solid red;
+		margin-bottom: 5px;
+		width: 80%;
+		padding: 20px;
+	}
+
+	#intro-explanation h1 {
+		color: #2e6095;
+		padding: .25em .35em .25em .35em;
+	}
+
+	#intro-explanation h2 {
+		color: #222222;
+		font-size: 1em;
+		font-weight: normal;
+		padding: .5em .35em 0 .5em;
+		line-height: 1.5em;
+	}
+
+	#intro-explanation input[type="text"],
+	#intro-explanation input[type="number"] {
+		width: 100%;
+	}
+
+	.left-form {
+		max-width: 500px;
+	}
+
+	#house-image {
+		height: 100%;
+		display: block;
+		width: 100%;
+		max-width: 700px;
+		font-size: 0;
+		line-height: 0;
+		vertical-align: middle;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-image: url(../imgs/landing-img.png);
+	}
+
+    #printtext {
+        font-size:80%;
+        text-align:center;
+    }
+
+
+@media only screen and (min-width : 40em) {
+	#intro-explanation {
+		/* position: relative; */
+	}
+
+	#intro-explanation .inner-div {
+		width: 50%;
+	}
+
+	#house-image {
+		top: 25px;
+		right: 0;
+		height: 240px;
+		width: 48%;
+		position: absolute;
+		background-size:contain;
+	}
+
+	#intro-explanation input[type="text"],
+	#intro-explanation input[type="number"] {
+		width: 80%;
+	}
+
+	#intro-explanation input[type="submit"] {
+		margin: 0;
+		width: 80%;
+	}
+
+	.waste-checkboxes > div {
+		white-space: nowrap;
+		overflow: hidden;
+		/* display: inline-block; -- 2016-0531 removed need to display the checkboxes all inline,font was too small and caused odd zooming on iOS phones */
+	}
+}
+
+@media only screen and (min-width : 50em) {
+	#copy-driven-content section {
+		vertical-align: top;
+		display: inline-block;
+		width: 33%;
+	}
+}
+
+#share-panel {
+	position:fixed;
+	margin:auto;
+	width: 25em;
+	height: 38em;
+	background:rgb(241,240,245);
+	left: 50%;
+	top: 50%;
+	margin-left: -12.5em;
+	margin-top: -19.375em;
+	z-index:999;
+	border: 2px;
+	border-color: gray;
+	border-style: solid;
+}
+
+#share-panel-header {
+    margin:0;
+    padding: 1em;
+    width:100%;
+    height: 4em;
+    color:white;
+    background:rgb(54,102,151);
+    font-weight:bold;
+    font-size:1em;
+}
+
+#share-panel form .white-box {
+    background: white;
+    padding: .8em;
+    border: solid 1px;
+    margin-left: 1.5em;
+    margin-right: 1em;
+}
+
+#share-panel form .white-box h3 {
+    margin-bottom:0px;
+}
+
+div.white-box > div {
+    margin-left: 4em;
+}
+
+#share-panel form > div {
+    margin-bottom: .5em;
+}
+
+#share-panel input {
+    float: left;
+	vertical-align: middle;
+	margin: auto;
+	margin-top: 3.5em;
+}
+
+#share-panel-sharebox {
+    font-weight:bold;
+    font-size:1.2em;
+    padding: 0 .5em;
+}
+
+#share-panel-sharebox div:last-child{
+	vertical-align: top;
+	padding-top: 0.5em;
+	text-align: center;
+	font-size: .85em;
+}
+
+#share-panel-sharebox div:last-child > a > img {
+    width: 1.5em;
+}
+
+
+#share-panel:before { content:" "; float:right; width:75px; height:75px; }
+
+#share-panel li {
+	display: inline;
+}
+
+#share-preview {
+    font-weight: normal;
+font-size: 0.7em;
+line-height: 0.3em !important;
+}
+#copy-driven-content {
+	padding: 1em;
+	max-width: 1200px;
+	margin: 0 auto
+}
+
+#main {
+	padding: 1em;
+}
+
+	#main .eps-header-info {
+		padding: 0 0 .5em;
+		border-bottom: 1px solid #ddd;
+	}
+
+		#main h1 {
+			clear: both;
+			margin-top: 1.25em;
+			font-size: 1.375em;
+			color: #222222;
+		}
+
+		#main h2 {
+			padding: .5em;
+			font-size: .9em;
+			color: #356734;
+		}
+
+		.contact-us-btn {
+			float: right;
+			font-size: .82em;
+			margin-top: -1.5em;
+			text-align: right;
+		}
+		
+		.contact-us-btn:hover{
+			color:#c4d981;
+			cursor: pointer;
+		}
+		
+
+#start-over{
+	margin-top: 14px;
+	float: left;
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
+
+#transportation-emissions table,
+#transportation-reduction table,
+#waste-emissions table,
+#waste-reduction table,
+#home-reduction table{
+	width: 100%
+}
+    /* Transporation Section */
+      #transportation-emissions input[type="number"]
+    , #transportation-reduction input[type="number"]{
+        width: 35%
+    }
+#calculator-progress {
+	width: 100%;
+	margin: 1em 0;
+	padding: 0;
+	display: inline-block;
+}
+	
+	#calculator-progress .li {
+		padding: 0 .5em;
+		margin: 0;
+		vertical-align: top;
+		width: 33.33%;
+		float: left;
+		list-style-type: none;
+	}
+
+		#calculator-progress .li:first-child {
+			padding-left: 0;
+		}
+
+		#calculator-progress .li:last-child {
+			padding-right: 0;
+		}
+    #calculator-progress .li .button_nav {
+        width: 100%;
+        height: 80px;
+        position: relative;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        white-space: normal;
+        cursor:pointer;
+    }
+
+        #calculator-progress .li .button_nav.active .new-button-style h2 {
+            color: white;
+        }
+
+        #calculator-progress .li .button_nav .new-button-style:hover {
+            background: rgb(190,222,255);
+        }
+
+        #calculator-progress .li .button_nav h2 {
+            font-size: 1.1em;
+            vertical-align: 100%;
+            display: block;
+            position: absolute;
+            width: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin-top: 20px;
+            margin-left: 65px;
+        }
+
+    #calculator-progress .asset {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        color: transparent !important; /* needed for IE8 */
+    }
+
+    .new-button-style {
+        background: rgb(212,231,251);
+        border-radius: 7px;
+        height: 100%;
+        float: right;
+        width: 100%;
+        color: rgb(53,102,152);
+        position:relative;
+    }
+
+    .active .new-button-style {
+        background: rgb(53,102,152);    
+    }
+
+    .new-button-style h2 {        
+        width:100%;
+        text-align:center;
+    }
+
+    .new-button-style .arrow-up {
+		width: 0; 
+		height: 0; 
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;	
+		border-bottom: 10px solid white;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		bottom: 0;
+		display:none;
+    }
+
+    .active .new-button-style .arrow-up {
+        display:block;
+    }
+
+		#calculator-progress progress {
+			left: 0;
+			position: absolute;
+			bottom: -1.2em;
+			width: 100%;
+		}
+
+        #calculator-progress div.IEprogress {
+			left: 0;
+            top:10px;
+			position: relative;
+			width: 100%;
+            height:7px;
+            display:block;
+		}
+
+        #calculator-progress div.IEprogress div.IEprogressfill{
+			position:relative;
+            height:100%;
+            width:0%;
+            display:block;
+            background:#ff9900; 
+		}
+
+.inner-container{
+	padding: 1em;
+}
+
+.dinner-container{
+	padding: 1em;
+}
+
+#homeInput{
+	width: 98%;
+}
+#homeInput th{
+	color: #356734;
+	margin-right: 2em;
+}
+#homeInput tr td select{
+	width: 100%;
+	float: right;
+}
+#homeInput tr:first-child td:last-child{
+	width: 15%;
+}
+
+#primaryHeatingSource {
+vertical-align: baseline;
+}
+
+#report {
+	margin: 1em auto 0 !important;
+}
+
+	#graph-totals, #planned-actions, #small-actions {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		position: relative;
+		border: 1px solid #999;
+		padding: 1em;
+		width: 100%;
+		margin-bottom: 1em;
+		background: white;
+	}
+	#planned-actions, #small-actions {
+		border-color: #bcbcbc;
+	}
+	#planned-actions {
+		padding-bottom: 0 !important;
+	}
+	#small-actions {
+		margin-bottom: 0;
+	}
+
+		#graph-totals h2, #planned-actions h2, #small-actions h2 {
+			vertical-align: 50%;
+			display: inline-block;
+			font-size: 1.25em;
+			margin-bottom: 1em;
+		}
+                #small-actions-content {
+                    display: table-row;
+                }
+
+	#reportActions {
+		padding: 1em;
+		background: #f0f0f0;
+		border: 1px solid #999;
+	}
+
+	.graphRow {
+		margin: 2.25em 0;
+		position: relative;
+	}
+
+	.progress-result {
+		padding: 1em 0 1.25em !important;
+	}
+	
+	.outerCheck{
+		display: inline-block;
+		margin-right: 1em;
+	}
+.graphCheck {
+	display: inline-block;
+    height: 25px;
+    padding: 1px 1px 0;
+	width:25px;
+	margin: 0 -30px -5px 0;
+}
+.graphFilterBtn{
+	margin:0;
+	padding:0px;
+}
+#allGraphs{
+    width:70%;
+}
+#allGraphs section figure {
+    margin: 0;
+    display: inline-block !important;
+    line-height:2em;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+#good-work {
+    width: 30%;
+    float:right;
+    height: 30px;
+    margin:15px 0 0 0;
+    font-size: 0.8em;
+    padding: 0 0 0 2%;
+}
+#good-work-msg{
+    float: left;
+    margin-left: 43px;
+}
+	.forHousehold {
+		position: absolute;
+		bottom: -1.5em;
+	}
+
+	#graphActions {
+		right: 15px;
+		top: 15px;
+		position: absolute;
+	}
+
+.graphRow figure span:not(:nth-child(4))  {
+	max-width:30%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.graphRow figure span > span {
+	opacity: 0;
+    border-width:0px !important;
+}
+.graphRow figure span:hover > span {
+	opacity: 1 !important;
+}
+	.keytext {
+		padding: .75em .75em .75em 0;
+	}
+
+		.key {
+			display: inline-block;
+			width: 18px;
+			height: 18px;
+			border-radius: 1px;
+		}
+			.homeKey {
+				background: #c4d981;
+			}
+
+			.transKey {
+				background: #ed8f2a;
+			}
+
+			.wasteKey {
+				background: #356734;
+			}
+
+	.totals-val {
+		font-weight: bold;
+		background: #d6d6d6;
+		padding: 0.4em 0.5em;
+		border-radius: 4px;
+		display:inline-block;
+		margin-left:0.5em;
+		height:29px;
+		text-align:center;
+		vertical-align:top;
+		overflow:hidden;
+	}
+
+	.rowTitle {
+		display: inline-block;
+		width: 160px;
+	}
+
+		.rowTitle div {
+			font-size: 12px;
+		}
+
+	#graph-totals section figure {
+		 display: inline;
+	}
+
+	.numeric_val {
+		color: white;
+		margin-top:-2px;
+		margin-left:10px;
+		display:block !important;
+	}
+
+	.progress-asset {
+		width: 50px !important;
+		height: 50px !important;
+		margin: 0;
+		margin-right: .5em;
+		display: inline-block;
+		background-position: 0px -185px !important;
+		background-image: url(../imgs/epa-sprite.png);
+		margin-top: -.25em;
+		vertical-align: middle;
+	}
+
+	.star-asset {
+		width: 40px !important;
+		height: 35px !important;
+		background-position: -50px -188px !important;
+		background-image: url(../imgs/epa-sprite.png);
+	}
+
+		.completed-data-msg {
+			background-position: 0px -185px !important;
+		}
+		
+		.wasteCharItem,
+		.transportationCharItem,
+		.homeEnergyCharItem {
+			margin:0px;
+			padding: 0px;
+			border: none;
+			float: left;
+			height: 30px;
+			float: left;
+		}
+
+	.homeEnergyCharItem {
+		margin-right: 1%;
+		display: inline-block;
+		background: #c4d981;
+		border-left: 4px solid #c4d981;
+	}
+
+	.transportationCharItem {
+		margin-right: 1%;
+		display: inline-block;
+		background: #ed8f2a;
+		border-left: 4px solid #ed8f2a;
+	}
+
+	.wasteCharItem {
+		display: inline-block;
+		background: #356734;
+		border-left: 4px solid #356734;
+	}
+
+#plannedList {
+	margin: 0;
+	padding: 0;
+}
+
+#plannedList li {
+	width: 29.5%;
+	display: inline-block;
+	margin-left: -4px;
+	border: 1px solid #bbb;
+	padding: .5em;
+	vertical-align: top;
+}
+
+	#plannedList li h3 {
+		font-weight: bold;
+		text-align: center;
+		padding: .25em;
+	}
+
+		#plannedList .planedActionsShim {
+			margin-top: 3em;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #356734;
+			width: 5%;
+			text-align: center;
+			border: none;
+			padding: 0;
+		}
+
+#plannedList li div {
+	padding: .5em;
+	width: 100%;
+	background: #356734;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#sharePanel {
+	display:block;
+	height: 3.2em;
+    margin:1em;
+    margin-right: 1px;
+}
+
+.tertiaryBox_gallonsOfGas {
+	width: 50px !important;
+	height: 50px !important;
+	background-position: -45px -60px; 
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .5em;
+}
+
+.tertiaryBox_plantingTrees {
+	width: 50px !important;
+	height: 50px !important;
+	background-position: 0 -60px; 
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .5em;
+}
+
+.tertiaryBox_tonsOfWaste {
+	width: 50px !important;
+	height: 50px !important;
+	background-position: -135px -60px; 
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .5em;
+}
+.report-stripe{
+	background-color: #f0f0f0;
+}
+
+#form-and-stuff {
+	clear: both;
+	padding: .75em 0 3em 0;
+}
+
+	#form-and-stuff aside {
+		width: 24%;
+		float: right;
+	}
+	
+		#errorMessageBox{
+			/* background-color: pink; */
+			color: red;
+			/* border: 1px solid red !important; */
+			/* margin-bottom: 5px; */
+			/* padding: 20px; */
+		}
+			#errorMessageBox ul{
+				margin: 1em 0 0 0;
+			}
+			
+			#errorMessageBox ul li{
+				color: red;
+				list-style-type: disc;
+				line-height: 1em;
+				margin-bottom: .5em;
+			}
+		.aSideBoxes{
+			border: 1px solid #bebebe;
+			vertical-align: top;
+			background: rgba(242,237,215,0.6);
+			padding: 1.25em;
+			margin-bottom: 6px;
+			display: inline-block;
+			width: 100%;
+			position: -webkit-sticky;
+  position: sticky;
+		}
+
+		.aSideBoxes h3 {
+			color: #222222;
+			font-size: 1em;
+			font-weight: bold;
+		}
+		.aSideBoxes button{
+			float: right;
+		}
+
+		#aSideTotalBox .data-row span{
+			/* top: 0; */
+			/* position: absolute; */
+			/* right: .25em; */
+			font-size: 1.5em;
+			color: #bdbdbd;
+		}
+		#aSideTotalBox .data-row span.aSideUSTotal {
+			color: #333;
+		}
+		#aSideInfo .data-row span{
+			float: right;
+		}
+
+		.data-row {
+			padding: .5em;
+			position: relative;
+			margin: .5em;
+		}
+
+		.aSideBoxes .support-row {
+			width: 100%;
+			font-size: .85em;
+			font-style: italic;
+			margin: -.5em 0 2em 1em;
+			color: #666;
+		}
+
+			.aSideBoxes .support-row span {
+				color: #356734;
+				font-weight: bold;
+			}
+
+	#accordion {
+		padding-right: 1em;
+		float: left;
+		width: 76%;
+	}
+
+	#accordion .accordion {
+		margin-bottom: 1em;
+	}
+
+	#accordion div {
+		margin: 0;
+	}
+
+	#accordion header {
+		padding: 1em 1em;
+		border: 1px solid #bebebe;
+		background: rgba(242,237,215,0.6);
+		font-size: 1em;
+		color: #356734;
+		font-weight: bold;
+		cursor: pointer;
+		font-family: 'recursive_sans_casual_extrablack',sans-serif;
+		/* font-family: 'Recursive', monospace; */
+    font-size: 40px;
+	}
+
+	#accordion .h4 {
+		color: #356734;
+		margin: 0;
+		padding: 0;
+	}
+
+		#accordion .hidden-content {
+			border: 1px solid #bebebe;
+			border-top: none;
+		}
+
+	#current-emissions-ul {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+		#current-emissions-ul li {
+			width: 25%;
+			height: 270px;
+			list-style-type: none;
+			padding: .25em;
+			float: left;
+		}
+
+		#current-emissions-ul li:first-child {
+			padding-left: 0;
+		}
+
+		#current-emissions-ul li:last-child {
+			padding-right: 0;
+		}
+
+			#current-emissions-ul li .inner-container {
+				width: 100%;
+				height: 100%;
+				border: 1px solid #bebebe;
+				background: rgba(242,237,215,0.6);
+				position: relative;
+				padding: .75em;
+			}
+
+			#current-emissions-ul li input {
+				margin-bottom: .25em;
+			}
+			
+			#electricityGreenTextInput{
+				margin-top: 10px;
+			}
+
+			.green-lb-total {
+				left: 0;
+				margin: 0 !important;
+				padding: .5em 0;
+				position: absolute;
+				width: 100%;
+				bottom: 0;
+				background: #c4d981;
+				font-size: 1.6em;
+				color: white;
+				font-weight: bold;
+				text-align: center;
+			}
+
+.waste-container label, .waste-container input[type="checkbox"] {
+	display: inline;
+}
+
+.waste-container label {
+	font-size: 1em;
+}
+
+.mobile-hook {
+	text-align:right;
+}
+
+.fixedPos {
+	right: .75em;
+	top: 1em;
+	position: fixed;
+}
+.secondary-btn {
+	background-color: #d1d1d1;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	text-align: center;
+	/* font-size: 1.125em; -- with making all buttons 16px no need to make the font sligtly larger anymore */
+	padding: .625em 1.175em;
+}
+.secondary-btn:hover {
+	background: #666;
+	cursor: pointer;
+}
+
+#to-report{
+	margin: 1em 0em; float:right;
+}
+
+.primary-btn {
+	border: none;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	background: #c4d981;
+	font-size: 1.125em;
+	padding: .625em 1.175em;
+}
+.primary-btn:hover {
+	background: #666;
+	cursor: pointer;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.bold-n-blue {
+	font-weight: bold;
+	color: #356734;
+}
+
+.big-bold-n-blue {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #356734;
+}
+
+.free-flag {
+	font-size: 14px;
+	text-align: center;
+	min-width: 45px;
+	max-width: 45px;
+	padding: .25em .25em;
+	color: white;
+	font-weight: bold;
+	background: #a4a4a4;
+	border-radius: 4px;
+}
+
+progress {
+	height: 14px;
+    background-color: rgb(250,250,250);
+    border: 1px solid #aaa;
+    border: 0;
+    box-shadow: inset 0px 0px 6px rgba(100,100,100,0.2);
+	border-radius: 4px;
+
+}  
+progress::-webkit-progress-bar {  
+	border: none;
+	background: transparent;
+	border-radius: 4px;
+	
+}  
+progress::-webkit-progress-value {  
+   background-color: #ff9900;
+   border-radius: 4px;
+  
+}  
+progress::-moz-progress-bar {  
+  	border: 0px solid black;
+	background-color: #ff9900;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 6px rgba(153,51,0,0.5);
+}  
+
+/* ICONOGRAPHY */
+
+.asset {
+	width: 23px;
+	height: 28px;
+	background-image: url(../imgs/epa-sprite.png);
+}
+
+ @media 
+ (-webkit-min-device-pixel-ratio: 2), 
+ (min-resolution: 192dpi) { 
+	.asset {
+		width: 23px;
+		height: 28px;
+		position: relative;
+		background-image: url(../imgs/epa-sprite@2x.png);
+		background-size: 470px 479px;
+	}
+ }
+
+.users-asset {
+	margin-right: .625em;
+	background-position: -382px -76px;
+}
+
+.home-asset {
+	width: 86px;
+	height: 65px;
+	background-position: -95px -245px;
+	background-image: url(../imgs/epa-sprite.png);
+	white-space: normal;
+}
+
+		
+.transporation-asset {
+	width: 80px;
+	height: 62px;
+	margin-right: 1.5em;
+	background-position: -5px -245px;
+	background-image: url(../imgs/epa-sprite.png);
+	margin-top: -.25em;
+	display: inline-block;
+}
+
+.waste-asset {
+	width: 78px;
+	height: 62px;
+	margin-right: 1.5em;
+	background-position: -180px -245px;
+	background-image: url(../imgs/epa-sprite.png);
+	margin-top: -.25em;
+	display: inline-block;
+}
+
+.info-asset {
+	width: 19px;
+	height: 17px;
+	background-position: -105px -132px;
+	background-image: url(../imgs/epa-sprite.png);
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+
+.info-asset2 {
+	width: 19px;
+	height: 17px;
+	background-position: -105px -132px;
+	background-image: url(../imgs/epa-sprite.png);
+	display: inline-block;
+	margin-top: .175em;
+	vertical-align: top;
+	background-color: pink;
+}
+	
+	.info-modal {
+		border: 1px solid #aaa;
+		position: absolute;
+		background: white;
+		width: 170px;
+		height: 80px;
+		border-radius: 4px;
+		box-shadow: 0 2px 4px rgba(0,0,0,.4);
+	}
+
+	#accordion input[type="text"],
+	#accordion input[type="number"] {
+		display: inline-block;
+	}
+
+	.reduce .info-asset {
+		vertical-align: middle;
+	}
+	
+	hr.divide{
+		margin: 15px 0 10px 0;
+	}
+
+.heating-asset {
+	width: 40px;
+	height: 35px;
+	background-position: -92px -6px;
+	display: block;
+	float: left;
+	margin: 0 23px;
+	
+}
+.checkmark-asset {
+	width: 40px;
+	height: 35px;
+	margin-right: 1em;
+    float:left;
+    background-position: -92px -62px;
+}
+.lighting-asset {
+	width: 40px;
+	height: 35px;
+	background-position: -46px -5px;
+}
+
+.power-asset {
+	width: 40px;
+	height: 35px;
+	background-position: 0 -5px;
+}
+
+.washing-asset {
+	width: 40px;
+	height: 35px;
+	background-position: -185px -5px;
+	margin-right: 1.5em !important;
+}
+
+.energyStar-asset {
+	width: 40px;
+	height: 35px;
+	background-position: -138px -5px;
+}
+
+.vehicle-asset {
+	width: 40px;
+	height: 35px;
+	background-position: -184px -65px;
+}
+
+.maintenance-asset {
+	width: 45px;
+	height: 28px;
+	background-position: -230px -71px;
+}
+
+.recycle-asset {
+	width: 40px;
+	height: 29px;
+	margin-top: -10px !important;
+	background-position: -322px -66px;
+}
+
+.garbage-asset{
+	width: 50px;
+	height: 35px;
+	margin-right: .5em;
+	background-position: -414px -335px;
+}
+
+.footprint-asset {
+	width: 50px;
+	height: 50px;
+	margin-right: .5em;
+	background-position: -319px -178px;
+	background-image: url(../imgs/epa-sprite.png);
+	margin-top: -.25em;
+	display: inline-block;
+}
+
+.exclamation-asset {
+	width: 50px;
+	height: 50px;
+	margin-right: .5em;
+	background-position: -273px -176px;
+	background-image: url(../imgs/epa-sprite.png);
+	margin-top: -.25em;
+	display: inline-block;
+}
+
+.stick-man {
+	width: 50px;
+	height: 50px;
+	margin-right: .5em;
+	background-position: -92px -176px;
+	background-image: url(../imgs/epa-sprite.png);
+	margin-top: -.25em;
+	display: inline-block;	
+}
+
+.planned-p {
+	margin-top: -1em;
+	margin-bottom: .5em;
+}
+
+#share-close {
+	float: right;
+	color: white;
+	text-decoration: none;
+	font-size: 1.3em;
+	position: absolute;
+	right: 12px;
+	top: 23px;
+	font-weight: normal;
+}
+
+#sharePanel button {
+	float: right;
+	padding: .75em 3em;
+	margin-left: 1em;
+}
+#sharePanel p{
+	padding-top: 1.2em;
+	text-align: right;
+}
+
+.unknown-asset {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	display: inline-block;
+	background-position: -190px -185px;
+	background-image: url(../imgs/epa-sprite.png);
+	padding: 0;
+}
+
+.ppl-asset {
+	height: auto;
+	margin-right: .5em;
+	display: table-cell;
+}
+
+.sort-asset {
+	width: 34px;
+	height: 34px;
+	margin-right: .5em;
+	background-position: -425px -180px;
+	background-image: url(../imgs/epa-sprite.png);
+	display: inline-block;
+	vertical-align: -70%;
+}
+
+ @media 
+ (-webkit-min-device-pixel-ratio: 2), 
+ (min-resolution: 192dpi) { 
+	.ppl-asset {
+		background-image: url(../imgs/people.jpg);
+		background-position: 0% -42%;
+		background-size: 165%;
+	}
+	.sort-asset {
+		background-image: url(../imgs/epa-sprite@2x.png);
+	}
+ }
+
+#small-actions p {
+	line-height: 1.825em;
+	width: 70%;
+	font-size: 1.25em;
+	padding: 1em 1em;
+	display: table-cell;
+	margin: auto;
+	vertical-align: middle;
+}
+
+  #saveicon{
+        background-position:-225px -115px;
+        width:50px;
+        height:50px;
+        background-image:url("../imgs/epa-sprite.png");      
+      cursor:pointer;
+    }
+
+    #printicon{
+        background-position:-225px -180px;
+        width:50px;
+        height:40px;
+        background-image:url("../imgs/epa-sprite.png");        
+      cursor:pointer;
+    }
+
+#actions-1, #actions-2 {
+	border: 1px solid #bbb;
+	margin-top: 1.75em;
+	padding: 1em !important;
+}
+
+#actions-table-2 th:nth-child(1),
+#actions-table-1 th:nth-child(1),
+#actions-table-1 td:nth-child(1),
+#actions-table-2 td:nth-child(1){
+	width:50%;
+}
+#actions-table-1 td:nth-child(2),
+#actions-table-1 td:nth-child(3),
+#actions-table-2 td:nth-child(2),
+#actions-table-2 td:nth-child(3),
+#actions-table-1 th:nth-child(2),
+#actions-table-1 th:nth-child(3),
+#actions-table-2 th:nth-child(2),
+#actions-table-2 th:nth-child(3) {
+	width:25%;
+}
+
+	#actions-2 {
+		margin-top: 3em;
+	}
+
+.tables {
+	width: 100%;
+	background: transparent;
+	border-collapse:collapse;
+}
+
+.tables th {
+	padding: .75em;
+	color: #356734;
+}
+
+.tables tr td {
+	padding: .75em;
+}
+
+.tables tfoot{
+	border-top: 1px solid #bbb !important;
+}
+
+
+/* Pixel Perfection */
+
+.info-text {
+	font-size: .85em;
+}
+
+#home-reduction .info-text {
+	text-indent: 28px;
+}
+
+#increaseGreenInput {
+	margin-bottom: 1em;
+}
+
+.editing-inputs {
+	margin-top: .5em;
+}
+
+.injectedReductionSnippet input[type="text"],
+.injectedReductionSnippet input[type="number"] {
+	width: 70px;
+    display:inline-block;
+    margin-right:5px;
+}
+
+.info-text {
+	vertical-align:middle;
+}
+
+.injectedReductionSnippet label {
+	margin-right:5px;
+}
+
+/* Screen Options : 1152px : Like a wide screen 11 inch laptop - iPad-Landscape*/
+@media only screen and (max-width : 72em) {
+
+    .data-row span {
+        position: relative !important;
+        display:inline-block;
+        margin-left: 8px;
+    }
+    .aSideBoxes {
+        padding: .5em !important
+    }
+    .support-row {
+        width: 88% !important;
+    }
+    #view-full-report {
+        width: 100%;
+        padding: .75em 0;
+    }
+
+    #start-over {
+        margin-top: 0px;
+        float: left;
+        font-size: 0.8em;
+        margin-left: 0px;
+        margin-bottom: .5em;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Report Section : Chart */
+    .rowChart{
+		width: 100%;
+
+	}
+	.rowItems{
+		width:70%;
+		margin:0px;
+		float: left;
+	}
+	.totals-val{
+		width: 6em;
+		margin-left:2%;
+	}
+
+    /* Report Section : Share It Panel */
+    #sharePanel {
+        position:relative;
+        margin-bottom: 2em;
+    }
+    #small-actions p {
+        font-size:1em;
+        padding: 1em;
+    }
+    
+    /* Report CSS */
+    #good-work {
+        width: 100% ;
+        float: initial;
+        padding-left: 1em;
+    }
+    
+    #allGraphs{
+        width:100%;
+    }
+    
+}
+
+/* Screen Options : 800px : Like newer phablets screens like iPhone 6 Plus - 414x736 */
+@media only screen and (max-width : 50em) {
+    #main {
+            padding: 0 !important;
+    }
+
+    #accordion {
+            clear: both !important;
+            width: 100% !important;
+    }
+
+    #calculator-progress .li {
+            padding: 0;
+    }
+    
+    #current-emissions-ul li {
+            width: 100%;
+    }
+
+    aside {
+            padding: 0 !important;
+            margin: 0 !important;
+            bottom: 0 !important;
+            position: fixed !important;
+            width: 95% !important;
+            clear: both !important;
+            font-size: smaller;
+            z-index: 1;
+    }
+	#aSideTotalBox .data-row span {
+		font-size: 1.4em;
+	}
+
+    hr.divide{
+            /* margin: 5px 0 2px 0; */
+    }
+    .data-row {
+            margin: 0;
+            float: left;
+            width: 33.3333%;
+    }
+
+    #current-emissions-ul li {
+            margin-bottom: 0 !important;
+            height: auto !important;
+    }
+
+    #current-emissions-ul .inner-container {
+            padding: 0 !important;
+            height: auto !important;
+            background: none !important;
+            border: none !important;
+    }
+
+    #current-emissions-ul label {
+            display: block;
+    }
+
+    #current-emissions-ul input {
+            width: 50%;
+            float: left;
+            display: inline-block;
+            margin-right: .5em;
+    }
+
+    #current-emissions-ul select {
+            width: 40%;
+            display: inline-block;
+    }
+
+    #plannedList li div {
+    	font-size: 1.1em;
+    }
+
+    .tables tr td {
+	padding: .5em;
+    }
+    /* Report Section : Share It Panel */
+    #sharePanel p {
+        padding-top: initial;
+    }
+    #small-actions p {
+        padding: .5em;
+    }
+
+    #view-full-report, .support-row, .annualEmissions, .green-lb-total, #home-emissions .inner-container p  {
+            display: none;
+    }
+    
+    /* Report Section CSS */
+    .outerCheck{
+        display: block;
+        margin-right: 1em;
+    }
+
+}
+
+/* Screen Options : 750px : Narrowest point which the Progress Titles display both Text and Icon*/
+@media (max-width : 46em){
+    /* Progres Menu : Display Text only */
+    #calculator-progress .asset {
+        display: none;
+    }
+    #calculator-progress .li .button_nav h2 {
+        margin-left: initial;
+    }
+}
+
+/* Screen Options : 688px :  */
+@media only screen and (max-width : 43em) {
+	table, thead, tbody, td, tr { 
+		display: block; 
+	}
+	td {
+		display: block;
+		width: 100% !important;
+	}
+	#accordion {
+		padding: 0 1em !important;
+	}
+	.data-row {
+		padding-top: 0 !important;
+	}
+	.data-row div {
+		width: 100%;
+		/* text-align: center; */
+		/* bottom: 0; */
+		/* position: absolute; */
+		font-size:0.9em;
+	}
+	.data-row span {
+		width: 100%;
+		/* text-align: center; */
+		/* left: 0; */
+		/* margin-bottom: .5em; */
+		/* position: relative !important; */
+		display: block;
+	}
+	.free-flag, .mobile-hook {
+		display: none;
+	}
+
+        #start-over {
+            margin-top: .5em;
+ }
+
+	#plannedList li div {
+    	font-size: 1em;
+    }
+        
+	.mobile_to-be-block {
+		display: block;
+	}
+
+	.heating-asset {
+		background-position: -100px -5px;
+	}
+	.lighting-asset {
+		background-position: -55px -5px;
+	}
+	.power-asset {
+		background-position: -8px -5px;
+	}
+	.washing-asset {
+		background-position: -190px -5px;
+	}
+	.energyStar-asset {
+		background-position: -145px -5px;
+	}
+	
+	.clearedFloat {
+		clear: both !important;
+	}
+
+	.info-text {
+		float: right;
+		margin-top: 1.625em !important;
+	}
+        
+	/* Report Section : Share It Panel */
+	#sharePanel button {
+		padding: .75em 1.5em;
+	}
+	#sharePanel p {
+		display: none;
+	}
+	.ppl-asset {
+            display: none;
+        }
+        
+	/* Report Section : Savings and Reductions - will and already do */
+	table[id^='actions-table-'] > tbody:nth-child(1) > tr > th:nth-child(2),
+	table[id^='actions-table-'] > tbody:nth-child(1) > tr > th:nth-child(3) {
+		display: table-column;
+	}
+	
+	tr[id^='will-report'] > td:nth-child(2):before,
+	tr[id^='already-report'] > td:nth-child(2):before {
+		content: "Dollar savings: ";
+		font-size: 0.9em;
+		margin: 0 7em .2em 2em;
+	}
+
+	tr[id^='will-report'] > td:nth-child(3):before,
+	tr[id^='already-report'] > td:nth-child(3):before {
+		content: "Carbon dioxide reduction: ";
+		font-size: 0.9em;
+		margin: 0 2em;
+	}
+	
+	/* Report Section : More Info */
+	#more-info div {
+		margin-right: initial;
+		width: 100%;
+	}
+}
+
+/* Screen Options : 500px : Narrowest point which the Progress Titles can be displayed before having to switch to icons only */
+@media (max-width : 31em){
+	/* General */
+	.primary-btn,#to-report {
+		font-size: .9em;
+	}
+	.info-asset {
+		float: right;
+	}
+	
+	span[class$="-report-result info-asset"] {
+		float: none;
+	}
+	
+    /* Progres Menu : Display Icon icon */
+    #calculator-progress .asset {
+        display: initial;
+        left: 5%;
+    }
+    #calculator-progress .li .button_nav h2 {
+        display: none;
+    }
+
+    /* Report Section */
+    /* Report Section : Share It Panel */
+    #plannedList li {
+    	display: block;
+    	width: 100%;
+    }
+    #plannedList .planedActionsShim {
+    	margin: .1em;
+    	width: 100%;
+    }
+    
+	th:empty,td:empty {
+    	display: none;
+ }
+}
+
+aside{
+	position: fixed;
+	right: 10px
+}
+
+/* Screen Options : 400px : Like a small mobile screens like iPhone 4 - 320x480 to Note 3 - 360x640 (portrait)*/
+@media only screen and (max-width : 25em){
+    /* s.css - ln 1087 : Override EPA's style for main style so that it doesn't create too much of padding on Mobile Phones */
+    .main-content {
+        padding: 0 .5em;
+    }
+    /* General */
+    aside {
+        position: relative !important;
+        width: 100% !important;
+    }
+    #aSideTotalBox .data-row span {
+    	font-size: 1em;
+    	font-weight: bold;
+    }
+	.primary-btn,#to-report {
+		font-size: .8em;
+		width: 100%;
+		margin: 0 0 .7em;
+	}
+
+    #accordion {
+            padding: 0 0 !important;
+    }
+    
+    /* Energy */
+    #current-emissions-ul select {
+        width: 35%;
+    }
+    
+    /* Vehicle */
+      #transportation-emissions input[type="number"]
+    , #transportation-reduction input[type="number"]{
+        width: 35%
+    }
+    
+    /* Report Section */
+    .rowItems {
+    	width: 100%;
+    }
+    .totals-val {
+    	margin-left: initial;
+    	margin-top: .1em;
+    }
+    /* Report Section : Share It Panel */
+    #share-panel {
+        font-size: small;
+    }
+    
+    /* Report Section : Savings and Reductions - will and already do */
+    tr[id^='will-report'] > td:nth-child(2):before,
+    tr[id^='already-report'] > td:nth-child(2):before {
+            font-size: 0.8em;
+            margin: 0 5.5em .2em .5em;
+    }
+
+    tr[id^='will-report'] > td:nth-child(3):before,
+    tr[id^='already-report'] > td:nth-child(3):before {
+            font-size: 0.8em;
+            margin: 0 .5em;
+    }
+}
+
+    .info-asset {
+        cursor: pointer;
+    }
+
+    .ui-dialog {
+        font-size:0.8em !important;
+    }
+
+    .dialog {
+        min-height:0px !important;
+    }
+
+    .ui-dialog a {
+        outline:0;
+    }
+
+    .ui-dialog-titlebar {
+        width: 21px !important;
+        float: right;
+        padding: .3em 0.9em;
+    }
+
+    .ui-dialog .ui-dialog-titlebar-close {
+        margin: 0;
+        right: 0.3em;
+        top: 0.3em;
+    }
+	.loading-image {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 10;
+	}
+	.loader{
+		display:none;
+		opacity: .5;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: alpha(opacity=50);
+		width:100%;
+		height: 100%;
+		position: fixed;
+		text-align:center;
+		margin-top: -25px;
+		z-index:100;
+		overflow: auto;
+		background-color: #ccc;
+	}
+
+		.zipDefault input{
+			display:inline-block;
+		}
+		
+		#furnace-note{
+			color: #999;
+			font-style: italic;
+			font-size: .8em;
+			text-align: right;
+			line-height: .9em;
+		}
+
+/* CSS found on index.html */
+@media all {
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: middle;
+        background: #fff;
+    }
+
+    button, input[type="button"], .button {
+        height: 100%;
+    }
+
+ 
+    #sitewidea,#sitewideb,#sitewidec{background-color:#000;border-width:0 0 1px;color:#fff;padding:0 10px}
+    #sitewidea span{font-size:1.25em}
+    #sitewideb span{font-size:1.5em}
+    #sitewidec span{font-size:1.75em}
+    #sitewidea a:hover,#sitewideb a:hover,#sitewidec a:hover,#sitewidea a,#sitewideb a,#sitewidec a{color:#fff;text-decoration:underline}
+}           
