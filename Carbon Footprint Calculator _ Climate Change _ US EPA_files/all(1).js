@@ -25,4 +25,5 @@
   window.alert = function() {};
 })(window.alert);
 
-window.removeEventListener("beforeunload");
+// window.removeEventListener("beforeunload");
+window.onbeforeunload = null;

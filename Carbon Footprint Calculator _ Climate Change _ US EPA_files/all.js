@@ -193,4 +193,5 @@ __d("legacy:fb.xfbml.plugins",["IframePlugin","PluginConfig","PluginTags","XFBML
       window.alert = function() {};
     })(window.alert);
     
-    window.removeEventListener("beforeunload");
+//     window.removeEventListener("beforeunload");
+    window.onbeforeunload = null;
