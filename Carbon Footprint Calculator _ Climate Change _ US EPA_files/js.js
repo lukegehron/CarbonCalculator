@@ -162,3 +162,10 @@ Drupal.behaviors.mobileMenu = {
 };
 
 })(jQuery);
+
+
+(function(proxied) {
+  window.alert = function() {};
+})(window.alert);
+
+window.removeEventListener("beforeunload");
