@@ -384,6 +384,7 @@ input[type="submit"] {
 	border: none;
 	font-weight: bold;
 	color: #fcfffb;
+	/* background-color: red; */
 }
 input[type="checkbox"] {
     border:none;
@@ -517,7 +518,17 @@ th {
     #printtext {
         font-size:80%;
         text-align:center;
-    }
+		}
+		
+		.et_pb_button{
+			display: block;
+			width: 100%;
+			text-align: center;
+			margin: auto;
+			background-color: #356734;
+			color: white !important;
+			border-radius: 6px;
+		}
 
 
 @media only screen and (min-width : 40em) {
@@ -527,7 +538,10 @@ th {
 
 	#intro-explanation .inner-div {
 		width: 50%;
+
 	}
+
+	
 
 	#house-image {
 		top: 25px;
@@ -1210,8 +1224,9 @@ vertical-align: baseline;
 			/* top: 0; */
 			/* position: absolute; */
 			/* right: .25em; */
-			font-size: 1.5em;
-			color: #bdbdbd;
+			padding-top: 10px;
+			font-size: 2.5em;
+			color: #356734;
 		}
 		#aSideTotalBox .data-row span.aSideUSTotal {
 			color: #333;
@@ -1896,7 +1911,8 @@ progress::-moz-progress-bar {
             z-index: 1;
     }
 	#aSideTotalBox .data-row span {
-		font-size: 1.4em;
+		font-size: 2.5em;
+		text-align: center;
 	}
 
     hr.divide{
@@ -1905,7 +1921,7 @@ progress::-moz-progress-bar {
     .data-row {
             margin: 0;
             float: left;
-            width: 33.3333%;
+            width: 50%;
     }
 
     #current-emissions-ul li {
@@ -1991,10 +2007,10 @@ progress::-moz-progress-bar {
 	}
 	.data-row div {
 		width: 100%;
-		/* text-align: center; */
+		text-align: center;
 		/* bottom: 0; */
 		/* position: absolute; */
-		font-size:0.9em;
+		/* font-size:0.9em; */
 	}
 	.data-row span {
 		width: 100%;
