@@ -1867,7 +1867,7 @@ jQuery(function ($) {
 		$('.totalEmissions').html(insertCommas(finiEmission.toFixed(0)));                                           //  Show in Aside & on Report
 		$('.totalTrees').html(cost);
 		$('.totalDonation').html(bsCost);
-		document.getElementById("linky").href = "https://haitireforest.salsalabs.org/15milliontrees/index.html?amount=" + cost
+		document.getElementById("linky").href = "https://haitireforest.salsalabs.org/2021ThemeFundraisingForm/index.html?amount=" + cost
 		$('.newEmissionTotal').html(insertCommas(finiNewEmission.toFixed(0)));                                    //  Show in Aside & on Report
 		
 		$("#current-total .homeEnergyCharItem").attr("title",insertCommas(Math.round(userRevisedChartNums[0])) +" lbs.");      //  = homeEmissionTotal - totalExhaustAlreadySaved
